@@ -1,4 +1,4 @@
-package day_01;
+package day01;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import static io.restassured.RestAssured.* ;
-import static io.restassured.matcher.RestAssuredMatchers.* ;
 import static org.hamcrest.Matchers.* ;
 
 public class RestAssuredIntro {
